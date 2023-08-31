@@ -1,0 +1,9 @@
+<h5>Advanced with Templating, Filtering and Multiple Selection</h5>
+<p-listbox [options]="operators" [(ngModel)]="selectedOperators" [metaKeySelection]="false" [checkbox]="true"
+  [filter]="true" [multiple]="true" optionLabel="name" [listStyle]="{'max-height':'250px'}" [style]="{'width':'30rem'}" [filterBy]="name,country,code">
+  <ng-template let-operator pTemplate="item">
+    <div class="operator-item" style="display: flex; align-items: center;">
+      <p-tag>{{operator.code}}</p-tag> &nbsp; <div>{{operator.name}}</div>
+    </div>
+  </ng-template>
+</p-listbox>
