@@ -64,11 +64,11 @@ export class AppComponent {
 
     this.operators = [
       { code: "2ES", name: "Spanish Military", country: "Spain" },
-      { code: "3DLH", name: "Deutsche Lufthansa", country: "Germany" },
+      { code: "DLH", name: "Deutsche Lufthansa", country: "Germany" },
       { code: "2DE", name: "German Military", country: "Germany" },
-      { code: "3GWI", name: "German Wings", country: "Germany" },
-      { code: "3RYR", name: "Ryanair", country: "Ireland" },
-      { code: "3AAL", name: "Americal Airlines", country: "United States of America" },
+      { code: "GWI", name: "German Wings", country: "Germany" },
+      { code: "RYR", name: "Ryanair", country: "Ireland" },
+      { code: "AAL", name: "Americal Airlines", country: "United States of America" },
     ];
 
     this.groupedCities = [
